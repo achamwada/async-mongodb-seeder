@@ -7,6 +7,11 @@
     "build": "webpack --config config/dev.config.js",
     "seed": "babel-node src/examples/index.js"
   },
+  "keywords":[
+    "seeder",
+    "mongodb",
+    "async"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.2",
@@ -22,5 +27,7 @@
     "@babel/plugin-syntax-class-properties": "^7.10.1",
     "faker": "^4.1.0",
     "mongoose": "^5.9.18"
-  }
+  },
+  "repository": "git@github.com:achamwada/async-mongodb-seeder.git",
+  "author": "Alexander Chamwada <alexander.chamwada@gmail.com>"
 }
