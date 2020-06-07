@@ -2,5 +2,19 @@
   "name": "async-mongodb-seeder",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "seed": "babel-node src/seeder/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "dotenv": "^8.2.0"
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "mongoose": "^5.9.18"
+  }
 }
