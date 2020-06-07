@@ -11,6 +11,6 @@ export default async () => {
     })
     console.log('Connected to mongoose!')
   } catch ({ message }) {
-    console.log('Error is connection to Mongoose: ', message)
+    console.log('Error in connection to Mongoose: ', message)
   }
 }
