@@ -1,8 +1,6 @@
 import DBConn from '../DB/connect'
 import createJobPromise from './createJobPromise'
-if (process.env.NODE_ENV !== 'production') {
-  require('dotenv').config
-}
+
 DBConn()
 /**
  * @param {Array} jobs

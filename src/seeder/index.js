@@ -1,3 +1,2 @@
-import faker from 'faker'
-
-console.log(faker.address.city())
+import scheduleJobs from '../helpers/scheduleJobs'
+export default scheduleJobs
