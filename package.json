@@ -1,13 +1,13 @@
 {
   "name": "async-mongodb-seeder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "build": "webpack --config config/dev.config.js",
     "seed": "babel-node src/examples/index.js"
   },
-  "keywords":[
+  "keywords": [
     "seeder",
     "mongodb",
     "async"
