@@ -4,15 +4,19 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "seed": "babel-node src/examples/index.js",
-    "dev": "babel-node src/seeder/test.js"
+    "build": "webpack --config config/dev.config.js",
+    "seed": "babel-node src/examples/index.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.2",
     "@babel/node": "^7.10.1",
     "@babel/preset-env": "^7.10.2",
-    "dotenv": "^8.2.0"
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   },
   "dependencies": {
     "@babel/plugin-syntax-class-properties": "^7.10.1",
